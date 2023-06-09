@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+
+:root{
+    background-color: #a2bee4a3;
+    
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.box-card{
+    position: absolute;
+    height: 24rem;
+    width: 17rem;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0px 20px 30px -10px rgb(11, 42, 74) ;
+}
+
+img{
+    height: 24rem;
+    width: 18rem;
+}
+
+.date{
+    position:absolute;
+    height: 2rem;
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    margin: 5%;
+    font-size: 8pt;
+    color: white;
+
+   
+}
+
+.travel{
+    letter-spacing: 7px;
+}
+
+.date .day{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 6.5pt;
+    margin-right: 5%;
+    
+}
+.text{
+    background: rgba(155, 154, 154, 0.127);
+    padding: 5%;
+    height: 9rem;
+    width: 17rem;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: -10.5rem;
+    color: white;
+
+}
+
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 3%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.sub-text{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    margin: 3%;
+    font-size: 10pt;
+    text-align: justify;
+}
+
+
